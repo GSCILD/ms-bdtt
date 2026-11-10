@@ -1,0 +1,17 @@
+{
+  "title": "MS-BDTT reproducibility package: Digital Twin Transfer for Marine Power Fault Diagnosis via Continuous Domain Interpolation (confirmatory revision)",
+  "upload_type": "software",
+  "description": "<p>Complete reproducibility package for the revised manuscript. Contains: (i) source code of all three MS-BDTT stages and all ten baselines with the exact hyperparameter configurations; (ii) split manifests (CSV, SHA-256 checksummed, one row per window with parent record/bearing/trajectory and partition, including transformed S2 records); (iii) exact random seeds and per-run command lines; (iv) trained model weights; (v) run-level predictions and per-run metrics underlying every mean, confidence interval and test statistic; (vi) raw per-scenario per-stage MMD logs; (vii) one regeneration script per table and figure; (viii) the scripted confirmatory analyses: ten-seed paired replication, S4 open-set evaluation, retention and budget sweeps, identifiability diagnostics, degradation-boundary labelling, and the manifest generation and leakage-check toolkit.</p>",
+  "creators": [
+    {"name": "Liu, Dong", "affiliation": "Jiujiang Polytechnic University of Science and Technology"},
+    {"name": "Liu, Jie", "affiliation": "Wuhan University of Technology"}
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": ["digital twin", "domain adaptation", "fault diagnosis", "marine power systems", "Bayesian calibration", "reproducibility"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/GSCILD/ms-bdtt", "relation": "isSupplementTo", "resource_type": "software"},
+    {"identifier": "10.5281/zenodo.XXXXXXX", "relation": "isSupplementedBy", "resource_type": "dataset", "comment": "replace with the reserved DOI before publishing"}
+  ],
+  "version": "v2.0-confirmatory",
+  "access_right": "open"
+}

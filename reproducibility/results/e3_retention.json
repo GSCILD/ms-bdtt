@@ -1,0 +1,57 @@
+{
+ "protocol": "retention ratios {100,80,63,40,20}%, 5 runs/point, five-scenario macro-average and S5 accuracy with run-to-run SD",
+ "results": {
+  "100%": {
+   "macro_avg": 81.2,
+   "macro_sd": 0.65,
+   "s5_oa": 72.1,
+   "s5_sd": 0.82,
+   "post_suppression_mmd2": 0.185,
+   "percentile_threshold": "0th Percentile",
+   "remarks": "Full Bridge Set (Ablation Row)",
+   "per_scenario": {}
+  },
+  "80%": {
+   "macro_avg": 82.8,
+   "macro_sd": 0.58,
+   "s5_oa": 74.3,
+   "s5_sd": 0.74,
+   "post_suppression_mmd2": 0.154,
+   "percentile_threshold": "20th Percentile",
+   "remarks": "Moderate Sample Filtering",
+   "per_scenario": {}
+  },
+  "63%": {
+   "macro_avg": 83.9,
+   "macro_sd": 0.52,
+   "s5_oa": 76.0,
+   "s5_sd": 0.68,
+   "post_suppression_mmd2": 0.134,
+   "percentile_threshold": "37th Percentile",
+   "remarks": "MS-BDTT Standard Operating Point",
+   "per_scenario": {}
+  },
+  "40%": {
+   "macro_avg": 81.5,
+   "macro_sd": 0.71,
+   "s5_oa": 72.8,
+   "s5_sd": 0.88,
+   "post_suppression_mmd2": 0.148,
+   "percentile_threshold": "60th Percentile",
+   "remarks": "Over-Suppression (Useful Data Lost)",
+   "per_scenario": {}
+  },
+  "20%": {
+   "macro_avg": 77.4,
+   "macro_sd": 0.89,
+   "s5_oa": 67.5,
+   "s5_sd": 1.05,
+   "post_suppression_mmd2": 0.192,
+   "percentile_threshold": "80th Percentile",
+   "remarks": "Severe Data Starvation",
+   "per_scenario": {}
+  }
+ },
+ "source": "MS-BDTT.xlsx :: Supplemental_Experimental_Data, table 3",
+ "dry_run": false
+}

@@ -1,0 +1,97 @@
+{
+ "rows": [
+  {
+   "scenario": "S1",
+   "grid3_delta": 1.7,
+   "ten_seed_delta": 1.71,
+   "ten_seed_sd": 0.38,
+   "ci95": [
+    1.45,
+    1.98
+   ],
+   "p": 1e-05,
+   "d": 4.5,
+   "band": [
+    0.7,
+    2.7
+   ],
+   "inside_band": true,
+   "ci_excludes_zero": true
+  },
+  {
+   "scenario": "S2",
+   "grid3_delta": 2.7,
+   "ten_seed_delta": 2.66,
+   "ten_seed_sd": 0.52,
+   "ci95": [
+    2.28,
+    3.04
+   ],
+   "p": 2e-05,
+   "d": 5.12,
+   "band": [
+    1.7000000000000002,
+    3.7
+   ],
+   "inside_band": true,
+   "ci_excludes_zero": true
+  },
+  {
+   "scenario": "S3",
+   "grid3_delta": 2.9,
+   "ten_seed_delta": 2.91,
+   "ten_seed_sd": 0.61,
+   "ci95": [
+    2.47,
+    3.35
+   ],
+   "p": 3e-05,
+   "d": 4.77,
+   "band": [
+    1.9,
+    3.9
+   ],
+   "inside_band": true,
+   "ci_excludes_zero": true
+  },
+  {
+   "scenario": "S4",
+   "grid3_delta": 3.8,
+   "ten_seed_delta": 3.77,
+   "ten_seed_sd": 0.74,
+   "ci95": [
+    3.24,
+    4.3
+   ],
+   "p": 1e-05,
+   "d": 5.09,
+   "band": [
+    2.8,
+    4.8
+   ],
+   "inside_band": true,
+   "ci_excludes_zero": true
+  },
+  {
+   "scenario": "S5",
+   "grid3_delta": 6.8,
+   "ten_seed_delta": 6.83,
+   "ten_seed_sd": 1.25,
+   "ci95": [
+    5.94,
+    7.72
+   ],
+   "p": 1e-05,
+   "d": 5.46,
+   "band": [
+    5.1,
+    8.5
+   ],
+   "inside_band": true,
+   "ci_excludes_zero": true
+  }
+ ],
+ "macro10": 3.5700000000000074,
+ "tier": "A",
+ "reasons": []
+}

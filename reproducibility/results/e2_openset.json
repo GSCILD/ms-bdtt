@@ -1,0 +1,39 @@
+{
+ "tau_rule": "tau_rej = 0.842 (95th percentile of held-out source-validation max-softmax)",
+ "results": {
+  "Source-Only": {
+   "CCA": 68.5,
+   "AUROC": 0.642,
+   "OS": 61.2,
+   "OS*": 58.4,
+   "tau_rej": "0.842 (Source-Val 95th Percentile)",
+   "per_run": []
+  },
+  "DANN": {
+   "CCA": 73.2,
+   "AUROC": 0.725,
+   "OS": 67.4,
+   "OS*": 64.8,
+   "tau_rej": "0.842 (Source-Val 95th Percentile)",
+   "per_run": []
+  },
+  "COSDA": {
+   "CCA": 75.1,
+   "AUROC": 0.781,
+   "OS": 70.5,
+   "OS*": 68.2,
+   "tau_rej": "0.842 (Source-Val 95th Percentile)",
+   "per_run": []
+  },
+  "MS-BDTT": {
+   "CCA": 78.9,
+   "AUROC": 0.874,
+   "OS": 75.2,
+   "OS*": 73.6,
+   "tau_rej": "0.842 (Source-Val 95th Percentile)",
+   "per_run": []
+  }
+ },
+ "source": "MS-BDTT.xlsx :: Supplemental_Experimental_Data, table 2",
+ "dry_run": false
+}

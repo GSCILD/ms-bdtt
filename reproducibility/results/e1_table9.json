@@ -1,0 +1,110 @@
+{
+ "n_seeds": 10,
+ "per_scenario": {
+  "S1": {
+   "label": "S1 (Cross-load)",
+   "ms_bdtt_mean_oa": 96.52,
+   "cosda_mean_oa": 94.81,
+   "delta_mean": 1.71,
+   "delta_sd": 0.38,
+   "ci95": [
+    1.45,
+    1.98
+   ],
+   "p_paired_t": 1e-05,
+   "cohens_d": 4.5,
+   "t": null,
+   "df": 9,
+   "ms_bdtt": {},
+   "cosda": {}
+  },
+  "S2": {
+   "label": "S2 (Cross-speed)",
+   "ms_bdtt_mean_oa": 86.18,
+   "cosda_mean_oa": 83.52,
+   "delta_mean": 2.66,
+   "delta_sd": 0.52,
+   "ci95": [
+    2.28,
+    3.04
+   ],
+   "p_paired_t": 2e-05,
+   "cohens_d": 5.12,
+   "t": null,
+   "df": 9,
+   "ms_bdtt": {},
+   "cosda": {}
+  },
+  "S3": {
+   "label": "S3 (Cross-dataset)",
+   "ms_bdtt_mean_oa": 82.14,
+   "cosda_mean_oa": 79.23,
+   "delta_mean": 2.91,
+   "delta_sd": 0.61,
+   "ci95": [
+    2.47,
+    3.35
+   ],
+   "p_paired_t": 3e-05,
+   "cohens_d": 4.77,
+   "t": null,
+   "df": 9,
+   "ms_bdtt": {},
+   "cosda": {}
+  },
+  "S4": {
+   "label": "S4 (Cross-equipment)",
+   "ms_bdtt_mean_oa": 78.89,
+   "cosda_mean_oa": 75.12,
+   "delta_mean": 3.77,
+   "delta_sd": 0.74,
+   "ci95": [
+    3.24,
+    4.3
+   ],
+   "p_paired_t": 1e-05,
+   "cohens_d": 5.09,
+   "t": null,
+   "df": 9,
+   "ms_bdtt": {},
+   "cosda": {}
+  },
+  "S5": {
+   "label": "S5 (Unlabelled Target)",
+   "ms_bdtt_mean_oa": 76.04,
+   "cosda_mean_oa": 69.21,
+   "delta_mean": 6.83,
+   "delta_sd": 1.25,
+   "ci95": [
+    5.94,
+    7.72
+   ],
+   "p_paired_t": 1e-05,
+   "cohens_d": 5.46,
+   "t": null,
+   "df": 9,
+   "ms_bdtt": {},
+   "cosda": {}
+  }
+ },
+ "macro_avg_ms_bdtt": 83.95,
+ "macro_avg_cosda": 80.38,
+ "macro_delta_mean": 3.58,
+ "macro_delta_sd": 0.58,
+ "macro_ci95": [
+  3.16,
+  4.0
+ ],
+ "macro_p_paired_t": 1e-05,
+ "macro_cohens_d": 6.17,
+ "scenarios_completed": [
+  "S1",
+  "S2",
+  "S3",
+  "S4",
+  "S5"
+ ],
+ "source": "MS-BDTT.xlsx :: Supplemental_Experimental_Data, table 1",
+ "note": "Aggregate statistics over 10 seeds (42-51) as supplied; the per-seed paired observations are deposited as per-seed metric files in the archive.",
+ "dry_run": false
+}

@@ -1,0 +1,7 @@
+{
+  "doi": "10.5281/zenodo.XXXXXXX",
+  "release_tag": "v2.0-confirmatory",
+  "commit_hash": "<40-char commit hash of the reviewed snapshot>",
+  "dry_run": false,
+  "_instructions": "Fill doi/release_tag/commit_hash after publishing the Zenodo deposit (README step 1), then rerun fill_and_rebuild.py. Keep dry_run=false."
+}

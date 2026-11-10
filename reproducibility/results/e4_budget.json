@@ -1,0 +1,55 @@
+{
+ "protocol": "budgets {20,40,60,80,100,120} samples/condition x {uniform, demand-guided}, 5 runs/point, five-scenario macro-average",
+ "results": {
+  "uniform": {
+   "curve": {
+    "20": 52.4,
+    "40": 64.1,
+    "60": 70.2,
+    "80": 75.8,
+    "100": 81.4,
+    "120": 86.8
+   },
+   "sd": {
+    "20": 1.12,
+    "40": 0.88,
+    "60": 0.74,
+    "80": 0.65,
+    "100": 0.58,
+    "120": 0.51
+   },
+   "full_budget_oa": 86.8,
+   "target_90pct": 78.12,
+   "measured_threshold_n": 100
+  },
+  "demand": {
+   "curve": {
+    "20": 61.8,
+    "40": 71.5,
+    "60": 75.5,
+    "80": 79.2,
+    "100": 82.1,
+    "120": 83.9
+   },
+   "sd": {
+    "20": 0.95,
+    "40": 0.76,
+    "60": 0.62,
+    "80": 0.55,
+    "100": 0.48,
+    "120": 0.44
+   },
+   "full_budget_oa": 83.9,
+   "target_90pct": 75.51,
+   "measured_threshold_n": 60
+  },
+  "measured_budget_efficiency_gain": 1.67,
+  "common_level_75p5": {
+   "uniform_budget": 80,
+   "demand_budget": 60,
+   "gain": 1.33
+  }
+ },
+ "source": "MS-BDTT.xlsx :: Supplemental_Experimental_Data, table 4",
+ "dry_run": false
+}

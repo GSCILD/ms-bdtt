@@ -1,0 +1,28 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "MS-BDTT: Marine-power-System Bayesian Digital Twin Transfer",
+  "description": "Reproducibility package for the manuscript 'Digital Twin Transfer for Marine Power Fault Diagnosis via Continuous Domain Interpolation': the confirmatory-analysis kit (ten-seed paired replication, S4 open-set evaluation, measured retention and budget sweeps, identifiability diagnostics, degradation-boundary labelling, partition-leakage audit), the machine-readable results, the regenerated figures, the manuscript and response-letter sources, and the document build pipeline.",
+  "version": "v2.0-confirmatory",
+  "datePublished": "2026-11-10",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "codeRepository": "https://github.com/GSCILD/ms-bdtt",
+  "author": [
+    {
+      "name": "Dong Liu"
+    },
+    {
+      "name": "Jie Liu"
+    }
+  ],
+  "keywords": [
+    "digital twin",
+    "domain adaptation",
+    "fault diagnosis",
+    "marine power systems",
+    "Bayesian calibration",
+    "reproducibility"
+  ],
+  "identifier": "10.5281/zenodo.XXXXXXX",
+  "_identifier_note": "replaced with the deposit DOI once the Zenodo record is published"
+}

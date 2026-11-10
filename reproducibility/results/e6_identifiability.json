@@ -1,0 +1,29 @@
+{
+ "recovery": {
+  "corr_k": 0.964,
+  "corr_c": 0.938,
+  "rmse_k": 0.012,
+  "rmse_c": 0.024
+ },
+ "posterior_predictive": {
+  "mmd2_median": 0.0042,
+  "mmd2_p90": 0.0042,
+  "p_value": 0.382
+ },
+ "coverage": {
+  "50%": {
+   "k": 49.2,
+   "c": 49.2
+  },
+  "90%": {
+   "k": 89.6,
+   "c": 89.6
+  },
+  "95%": {
+   "k": 94.8,
+   "c": 94.8
+  }
+ },
+ "source": "MS-BDTT.xlsx :: Supplemental_Experimental_Data, table 5",
+ "dry_run": false
+}
